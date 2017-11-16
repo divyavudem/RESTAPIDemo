@@ -12,7 +12,7 @@ public class DatabaseConnection {
 		Class.forName("com.mysql.jdbc.Driver");
 		//database: gitfiles 
 		String url = "jdbc:mysql://localhost:3306/gitfiles";
-		Connection myconn = DriverManager.getConnection(url, "root", "Chandra@4");
+		Connection myconn = DriverManager.getConnection(url, "root", "root");
 		return myconn;
 		}
 		catch (Exception e) {
